@@ -1,0 +1,43 @@
+#header {
+	margin: 20px;
+}
+body {
+	width: 650px;
+	font-family: Tahoma, Courier New, 'Raleway', arial, serif;
+	font-size: 14px;
+	#font-weight: 100;
+	#letter-spacing: 1px;
+}
+#content {
+	float: right;
+}
+#content p {
+	margin: 20px;
+}
+#ribbon {
+	left: 0px;
+	width: 450px;
+	height: 108px;
+	color: #FFFFFF;
+	background-color: #000000;
+	position: relative;
+}
+#ribbon p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 18px;
+}
+#ribbon img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#blog {
+	position: absolute;
+	left: 750px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
