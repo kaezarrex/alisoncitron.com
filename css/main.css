@@ -10,6 +10,7 @@ body {
 #body {
 	width: 1220px;
 	position: relative;
+	overflow: hidden;
 }
 #main {
 	width: 720px;
@@ -75,13 +76,14 @@ a {
 }
 #footer {
 	clear: both;
-	width: 100%;
-	top: 70px;
+	top: 40px;
 	position: relative;
 }
 #menu {
 	font-size: 22px;
-	margin-bottom: 8px;
+	margin-bottom: -20px;
+	padding-top: 20px;
+	overflow: hidden;
 }
 #menu ul {
 	border: none;
@@ -95,6 +97,10 @@ a {
 	display: inline;
 	list-style-image: url(../images/bullet.png); 
 	list-style-type: square;
+}
+#email {
+	position: relative;
+	top: -70px;
 }
 #footer #blackbar {
 	background-color: #000000;
