@@ -1,21 +1,23 @@
+body {
+	font-family: Tahoma, Courier New, arial, serif;
+	font-size: 16px;
+	margin: 0px;
+}
 #header {
 	margin-top: 47px;
 	margin-left: 60px;
 }
-body {
+#body {
 	width: 1220px;
-	font-family: Tahoma, Courier New, 'Raleway', arial, serif;
-	font-size: 16px;
-	margin: 0px;
-	position: absolute;
+	position: relative;
 }
-#content {
+#main {
 	width: 720px;
 	padding-top: 40px;
 	padding-left: 25px;
 	float: left;
 }
-#content p {
+#main p {
 	margin: 20px;
 }
 #ribbon {
@@ -28,8 +30,8 @@ body {
 	clear: both;
 }
 #ribbon p {
-	font-size: 20px;
-	padding-top: 10px;
+	font-size: 18px;
+	padding-top: 25px;
 	padding-bottom: 10px;
 	padding-left: 40px;
 	padding-right: 18px;
@@ -82,10 +84,9 @@ a {
 	margin-bottom: 8px;
 }
 #menu ul {
-	margin-left: 270px;
-	padding-left: 0px;
-	display: inline;
 	border: none;
+	text-align: center;
+	margin: 10px;
 }
 #menu ul li {
 	margin-left: 0px;
