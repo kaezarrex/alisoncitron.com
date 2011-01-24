@@ -1,5 +1,5 @@
 var $; //libraries
-var showContact = false, window;
+var showContact = false;
 
 $(function () {
 	$("#contact").toggle(function () {
