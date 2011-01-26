@@ -18,8 +18,7 @@ $(function () {
 		$("#email").css('left', function () {
 			if (showContact) {
 				return $("#contact").offset().left;	
-			}
-			else {
+			} else {
 				return $(window).width();
 			}
 		});

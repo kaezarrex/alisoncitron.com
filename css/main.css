@@ -96,8 +96,6 @@ a {
 	padding-left: 2px;
 	border: none;
 	display: inline;
-	list-style-image: url(../images/bullet.png); 
-	list-style-type: square;
 }
 #email {
 	position: relative;
