@@ -1,0 +1,77 @@
+body {
+	font-family: Lato, Tahoma, Courier New, arial, serif;
+	font-size: large;
+	font-weight: normal;
+	margin: 0px;
+}
+#header {
+	padding-top: 10px;
+	text-align: center;
+}
+#header img {
+	max-width: 100%;
+}
+#main {
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#ribbon {
+	left: 0px;
+	width: 100%;
+	height: 108px;
+	color: #FFFFFF;
+	background-color: #000000;
+	position: relative;
+	clear: both;
+}
+#ribbon p {
+	font-size: large;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 18px;
+}
+#ribbon img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#blog {
+	display: none;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+#footer {
+	clear: both;
+	top: 10px;
+	position: relative;
+}
+#menu {
+	font-size: 22px;
+	margin-bottom: -10px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+#menu ul {
+	border: none;
+	text-align: center;
+	margin: 10px;
+	padding: 0px;
+}
+#menu ul li {
+	margin-left: 0px;
+	padding-left: 2px;
+	border: none;
+	display: inline;
+}
+#email {
+	position: relative;
+	top: -70px;
+}
+#footer #blackbar {
+	background-color: #000000;
+	height: 30px;
+}
