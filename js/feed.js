@@ -1,5 +1,3 @@
-var $, google; //libraries
-var initialize, createPreview; //functions
 
 google.load("feeds", "1");
 
@@ -11,7 +9,7 @@ function initialize() {
 			entries = result.feed.entries;
 			if (entries.length > 0) {
 				entry = entries[0];
-				$("#feed").append("<b>" + entry.title + "</b>");
+				$("#feed").append("<h2>" + entry.title + "</h2>");
 				$("#feed").append(createPreview(entry));
 			}
 		}
