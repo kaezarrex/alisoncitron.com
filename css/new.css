@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+.centered {
+text-align: center;
+}
+
 #content {
 width: 1200px;
 font-family: Lato;
@@ -34,6 +38,10 @@ background-color: #000;
 height: 6px;
 }
 
+#blog img {
+max-width:389px;
+}
+
 #main{
 position: relative;
 margin: 10px 460px 0 0;
@@ -45,12 +53,14 @@ margin: 0 0 1em 0;
 }
 
 #ribbon {
-position: absolute;
+position: relative;
 left: -30px;
+width: 770px;
 height: 108px;
+margin-top: 2em;
 color: #fff;
 background-color: #000;
-font-size: 1.2em;
+font-size: 1.1em;
 font-weight: 300;
 }
 
@@ -59,13 +69,12 @@ float: right;
 }
 
 #ribbon p {
-padding: 1em 0 1em 30px;
+padding: 1.2em 0 0 30px;
 }
 
 #footer {
 clear: both;
-margin: 0;
-padding: 1.5em 0 0 0;
+margin-top: 3em;
 }
 
 #menu {
